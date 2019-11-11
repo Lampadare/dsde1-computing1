@@ -1,6 +1,5 @@
 '''
 test_structures.py
-
 Unit tests for structures functions.
 '''
 
@@ -88,11 +87,11 @@ class TestStructures(unittest.TestCase):
         self.assertEqual(result, "First sentence. Second sentence.")
 
      #def test_concatenate_sentences2(self):
-     #   '''
-     #   Test sentence concatenation
-     #   '''
-     #   result = st.concatenate_sentences("first sentence.", "Second sentence.")
-     #   self.assertRaises(ValueError,
+      #  '''
+       # Test sentence concatenation
+        #'''
+        #result = st.concatenate_sentences("first sentence.", "Second sentence.")
+        #self.assertRaises(ValueError,
 
     def test_index_exists1(self):
         '''
